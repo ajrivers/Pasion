@@ -1,0 +1,22 @@
+# Sistemas
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+
+# Temporales
+*.tmp
+*.bak
+*.swp
+
+# Logs
+*.log
+
+# Dependencias
+node_modules/
+vendor/
+
+# Configuración local
+.env

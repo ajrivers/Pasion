@@ -1,0 +1,289 @@
+<HTML>
+<HEAD>
+<TITLE>Pasión por Jerez</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="css/index.css" type="text/css">
+<script language="javascript">
+	function sinSombra(id, name)
+	{
+		var c = document.getElementById(id);
+		var s = new String(name);
+		var p1 = s.substring(0, 12);
+		var p2 = s.substring(12, 19);
+		p1 = p1.concat('2');
+		p1 = p1.concat(p2);
+		c.src = p1;
+	}
+	
+	function conSombra(id, name)
+	{
+		var c = document.getElementById(id);
+		c.src = name;
+	}
+	
+	function selectRandom()
+	{
+		var img = document.getElementById('rnd');
+		var num = Math.random();
+		num = Math.ceil(num * 10);
+		if(num == 0)
+			num++;
+		var s = "Images/random/img";
+		s = s.concat(num);
+		s = s.concat('.jpg');
+		img.src = s;
+	}
+</script>
+</HEAD>
+<BODY LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 onload="selectRandom()">
+<!-- ImageReady Slices (Layout.psd) -->
+<TABLE WIDTH=1024 BORDER=0 CELLPADDING=0 CELLSPACING=0 align="center">
+	<TR>
+		<TD COLSPAN=3 ROWSPAN=9>
+			<IMG SRC="Images/index_01.gif" WIDTH=21 HEIGHT=492 ALT=""></TD>
+		<TD COLSPAN=6 ROWSPAN=3>
+			<IMG SRC="Images/index_02.gif" WIDTH=180 HEIGHT=159 ALT=""></TD>
+		<TD COLSPAN=5>
+			<IMG SRC="Images/index_03.gif" WIDTH=594 HEIGHT=21 ALT=""></TD>
+		<TD COLSPAN=2 ROWSPAN=3>
+			<IMG SRC="Images/index_04.gif" WIDTH=201 HEIGHT=159 ALT=""></TD>
+		<TD ROWSPAN=27>
+			<IMG SRC="Images/index_05.gif" WIDTH=28 HEIGHT=1500 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=21 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=26>
+			<IMG SRC="Images/index_06.gif" WIDTH=21 HEIGHT=1479 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/index_07.gif" WIDTH=241 HEIGHT=110 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/index_08.gif" WIDTH=123 HEIGHT=110 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/index_09.gif" WIDTH=195 HEIGHT=110 ALT=""></TD>
+		<TD ROWSPAN=4>
+			<IMG SRC="Images/index_10.gif" WIDTH=14 HEIGHT=186 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=110 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=3 ROWSPAN=3>
+			<IMG SRC="Images/index_11.gif" WIDTH=559 HEIGHT=76 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=28 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=6>
+			<IMG SRC="Images/index_12.gif" WIDTH=180 HEIGHT=23 ALT=""></TD>
+		<TD COLSPAN=2 ROWSPAN=2>
+			<IMG SRC="Images/index_13.gif" WIDTH=201 HEIGHT=48 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=23 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=4 ROWSPAN=2>
+			<IMG SRC="Images/index_14.gif" WIDTH=146 HEIGHT=33 ALT=""></TD>
+		<TD COLSPAN=2 ROWSPAN=5>
+			<IMG SRC="Images/index_15.gif" WIDTH=34 HEIGHT=310 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=25 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=5 ROWSPAN=21>
+			<iframe name="interno" src="indice.html" scrolling="auto" frameborder="0" width="769" height="1236"></iframe>
+			<!--<IMG SRC="Images/index_16.gif" WIDTH=769 HEIGHT=1236 ALT="">--></TD>
+		<TD ROWSPAN=22>
+			<IMG SRC="Images/index_17.gif" WIDTH=5 HEIGHT=1293 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=8 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=4>
+			<IMG SRC="Images/index_18.gif" WIDTH=146 HEIGHT=17 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=17 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2>
+			<IMG SRC="Images/index_19.gif" WIDTH=7 HEIGHT=260 ALT=""></TD>
+		<TD>
+			<img id="rnd" border="0" src="Images/index_20.gif" width="122" height="198"></TD>
+		<TD COLSPAN=2 ROWSPAN=2>
+			<IMG SRC="Images/index_21.gif" WIDTH=17 HEIGHT=260 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=198 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD>
+			<IMG SRC="Images/index_22.gif" WIDTH=122 HEIGHT=62 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=62 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=8>
+			<a target="interno" href="indice.html">
+			<IMG id="indice" SRC="Images/index_23.gif" WIDTH=183 HEIGHT=51 ALT="" onmouseover="sinSombra('indice', 'Images/index_23.gif')" onmouseout="conSombra('indice', 'Images/index_23.gif')" border="0"></a></TD>
+		<TD ROWSPAN=18>
+			<IMG SRC="Images/index_24.gif" WIDTH=18 HEIGHT=1008 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=51 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=8>
+			<a target="interno" href="dias.html">
+			<IMG id="diasp" border="0" SRC="Images/index_25.gif" WIDTH=183 HEIGHT=53 ALT="" onmouseover="sinSombra('diasp', 'Images/index_25.gif')" onmouseout="conSombra('diasp', 'Images/index_25.gif')"></a></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=53 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=8>
+			<IMG id="corpus" SRC="Images/index_26.gif" WIDTH=183 HEIGHT=52 ALT="" onmouseover="sinSombra('corpus', 'Images/index_26.gif')" onmouseout="conSombra('corpus', 'Images/index_26.gif')"></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=52 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=8>
+			<IMG id="glorias" SRC="Images/index_27.gif" WIDTH=183 HEIGHT=54 ALT="" onmouseover="sinSombra('glorias', 'Images/index_27.gif')" onmouseout="conSombra('glorias', 'Images/index_27.gif')"></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=54 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=8>
+			<IMG id="albums" SRC="Images/index_28.gif" WIDTH=183 HEIGHT=54 ALT="" onmouseover="sinSombra('albums', 'Images/index_28.gif')" onmouseout="conSombra('albums', 'Images/index_28.gif')"></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=54 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=8>
+			<IMG id="otras" SRC="Images/index_29.gif" WIDTH=183 HEIGHT=56 ALT="" onmouseover="sinSombra('otras', 'Images/index_29.gif')" onmouseout="conSombra('otras', 'Images/index_29.gif')"></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=56 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=8>
+			<IMG id="enlaces" SRC="Images/index_30.gif" WIDTH=183 HEIGHT=55 ALT="" onmouseover="sinSombra('enlaces', 'Images/index_30.gif')" onmouseout="conSombra('enlaces', 'Images/index_30.gif')"></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=55 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=8>
+			<IMG id="contacto" SRC="Images/index_31.gif" WIDTH=183 HEIGHT=57 ALT="" onmouseover="sinSombra('contacto', 'Images/index_31.gif')" onmouseout="conSombra('contacto', 'Images/index_31.gif')"></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=57 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=8>
+			<IMG SRC="Images/index_32.gif" WIDTH=183 HEIGHT=25 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=25 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=4 ROWSPAN=2>
+			<IMG SRC="Images/index_33.gif" WIDTH=28 HEIGHT=50 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/index_34.gif" WIDTH=122 HEIGHT=37 ALT=""></TD>
+		<TD COLSPAN=3 ROWSPAN=2>
+			<IMG SRC="Images/index_35.gif" WIDTH=33 HEIGHT=50 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=37 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD>
+			<IMG SRC="Images/index_36.gif" WIDTH=122 HEIGHT=13 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=13 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2 ROWSPAN=2>
+			<IMG SRC="Images/index_37.gif" WIDTH=16 HEIGHT=307 ALT=""></TD>
+		<TD COLSPAN=4>
+			<!--<IMG SRC="Images/index_38.gif" WIDTH=145 HEIGHT=291 ALT="">-->
+			<!-- INICIO codigo tagboard miarroba.com -->
+			<SCRIPT LANGUAGE="JavaScript" src="http://tagboard.miarroba.com/ver.php?id=130488"></SCRIPT>
+			<!-- FIN codigo tagboard miarroba.com --></TD>
+		<TD COLSPAN=2 ROWSPAN=2>
+			<IMG SRC="Images/index_39.gif" WIDTH=22 HEIGHT=307 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=291 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=4>
+			<IMG SRC="Images/index_40.gif" WIDTH=145 HEIGHT=16 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=16 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=5>
+			<IMG SRC="Images/index_41.gif" WIDTH=11 HEIGHT=194 ALT=""></TD>
+		<TD COLSPAN=6>
+			<IMG SRC="Images/index_42.gif" WIDTH=156 HEIGHT=32 ALT=""></TD>
+		<TD ROWSPAN=5>
+			<IMG SRC="Images/index_43.gif" WIDTH=16 HEIGHT=194 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=32 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=6>
+			<IMG SRC="Images/index_44.gif" WIDTH=156 HEIGHT=11 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=11 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=6>
+			<IMG SRC="Images/index_45.gif" WIDTH=156 HEIGHT=55 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=55 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=6 ROWSPAN=2>
+			<IMG SRC="Images/index_46.gif" WIDTH=156 HEIGHT=96 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=39 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=5>
+			<IMG SRC="Images/index_47.gif" WIDTH=769 HEIGHT=57 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=1 HEIGHT=57 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=11 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=5 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=5 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=7 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=122 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=11 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=6 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=16 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=18 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=21 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=241 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=123 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=195 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=14 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=196 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=5 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="Images/spacer.gif" WIDTH=28 HEIGHT=1 ALT=""></TD>
+		<TD></TD>
+	</TR>
+</TABLE>
+<!-- End ImageReady Slices -->
+</BODY>
+</HTML>

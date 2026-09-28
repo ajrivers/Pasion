@@ -1,0 +1,15 @@
+BODY
+{
+	background-color: #5482D5; 
+	background-image: url('../Images/bspasion.jpg'); 
+	background-repeat: no-repeat; 
+	SCROLLBAR-FACE-COLOR: #04009F; 
+	background-attachment: fixed; 
+	background-position: center; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #A2BEEF;
+ 	SCROLLBAR-SHADOW-COLOR: #A2BEEF; 
+ 	SCROLLBAR-3DLIGHT-COLOR: #A2BEEF;
+ 	SCROLLBAR-ARROW-COLOR: #A2BEEF; 
+ 	SCROLLBAR-TRACK-COLOR: #3661AD;
+ 	SCROLLBAR-DARKSHADOW-COLOR: #A2BEEF
+}
