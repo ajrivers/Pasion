@@ -1,4 +1,4 @@
-# Sistemas
+# Sistema
 .DS_Store
 Thumbs.db
 
@@ -10,13 +10,11 @@ Thumbs.db
 *.tmp
 *.bak
 *.swp
+*~
 
 # Logs
 *.log
 
-# Dependencias
-node_modules/
-vendor/
-
-# Configuración local
-.env
+# Archivos FrontPage
+_vti_pvt/
+_vti_log/
